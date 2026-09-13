@@ -40,5 +40,42 @@ It can be used for activities such as:
 
 ⚠️ Important: This laboratory must only be used for systems that you own or have explicit permission to test. Do not use the lab or its tools to attack unauthorized systems.
 
+# 🏗️ Lab Architecture
 
+![Lab Architecture](./images/lab-diagram.png)
+
+Additional target machines can be added to the same virtual network in future projects.
+
+
+## ⚙️ Lab Configuration
+
+| 🧩 Component | ⚙️ Configuration |
+| :--- | :--- |
+| 💻 **Host OS** | Windows 10 |
+| 🧠 **Host RAM** | 8 GB |
+| ⚡ **Processor** | Intel Core i7 |
+| 🧰 **Hypervisor** | VirtualBox 7.2 |
+| 🐉 **Security OS** | Kali Linux 2026.2 |
+| 🧠 **Kali RAM** | 2048 MB (2 GB) |
+| 📦 **Target VM 1** | Metasploitable 2 |
+| 🛡️ **Target VM 2** | Windows Server 2019 |
+| 🌐 **Network Mode** | NAT Network (Isolated) |
+
+# 🪜 Lab Setup Procedure
+
+# Step 1. Install 7-Zip
+
+7-Zip was installed to extract the Kali Linux virtual-machine package, which may be distributed as a .7z archive.
+
+Tool: 7-Zip
+
+# Step 2. Install VirtualBox
+
+VirtualBox was installed as the hypervisor.
+
+# Step 3. Create the NAT Network
+
+A dedicated NAT Network was created in VirtualBox.
+
+Configuration: Network Name: NatNetwork IPv4 Prefix: 10.0.0.0/24 DHCP: Enabled IPv6: Disabled
 
