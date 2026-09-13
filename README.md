@@ -135,7 +135,7 @@ The snapshot represents the clean baseline of the laboratory.
 
 If a future exercise changes or damages the VM configuration, the machine can be restored to this baseline.
 
-🔎 Lab Verification
+# 🔎 Lab Verification
 
 ✅ Test	🧾 Command	🎯 Expected Result
 🌐 Check IP address	ip a	Correct Kali IP displayed
@@ -224,15 +224,15 @@ This laboratory is intended strictly for education purposes only.
 7-Zip: https://7-zip.org/download.html
 VirtualBox: https://virtualbox.org/wiki/Downloads
 Kali Linux: https://kali.org/get-kali
-👤 Author
+
+# 👤 Author
 
 Nita Ilem
+
 Cybersecurity Professional B083
 
 LinkedIn: 
 https://www.linkedin.com/in/nita-ilem-ab93191b0?utm_source=share_via&utm_content=profile&utm_medium=member_ios
 
-
 # 📌 Project Information
-
 Program Name: Cybersecurity at Networkwalks | Week: 01 | Project: Cybersecurity & Pentesting Lab Setup | Repository: GitHub
