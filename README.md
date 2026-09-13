@@ -105,7 +105,6 @@ Adapter 1
 Attached to: NAT Network
 Network:     NatNetwork
 Adapter Type: Intel PRO/1000 MT Desktop
-The VM was allocated:
 
 RAM: 2048 MB
 
@@ -131,10 +130,10 @@ After completing the initial configuration, a VirtualBox snapshot was created.
 Example snapshot name:
 
 Clean Kali - Network Setup
+
 The snapshot represents the clean baseline of the laboratory.
 
 If a future exercise changes or damages the VM configuration, the machine can be restored to this baseline.
-
 
 🔎 Lab Verification
 
